@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="assgn.css" rel="stylesheet" type="text/css">
+    <title>RM1 Campaign Program</title>
+
+</head>
+<body>
+    <header>
+        <img src="IIUM-LOGO.png" alt="IIUM Logo">
+        <h1>RM1 CAMPAIGN PROGRAM</h1>
+        <p>Let your contributions be perpetual for the pleasure of Allah SWT</p>
+        <p><strong>“The example of those who spend their wealth in the 
+            way of Allah is like a seed [of grain] which grows seven 
+            spikes; in each spike is a hundred grains. And Allah 
+            multiplies [His reward] for whom He wills. And Allah is 
+            all-Encompassing and Knowing.”
+            <strong>(Al-Baqarah:261)</p>
+    </header>
+
+    <div id="content">
+        <h2>PARTICIPATION IN RM1 CAMPAIGN-Monthly Salary Deduction Form</h2>
+        <form id="deductionForm" onsubmit="return validateForm()">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="staffNo">Staff No.:</label>
+            <input type="text" id="staffNo" name="staffNo" required>
+
+            <label for="department">K/C/D/I/O:</label>
+            <input type="text" id="department" name="department" required>
+
+            <label for="contactNo">Contact No.:</label>
+            <input type="tel" id="contactNo" name="contactNo" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="amount">Amount to be Deducted (RM):</label>
+            <input type="number" id="amount" name="amount" required>
+
+            <label for="startDate">Start Date:</label>
+            <input type="month" id="startDate" name="startDate" required>
+
+            <label for="endDate">End Date:</label>
+            <input type="month" id="endDate" name="endDate" required>
+
+
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required>
+
+            <button type="submit" class="button submit-button">Submit</button>
+
+            <p>The above salary deduction will take effect from the startDate & year until the endDate & year or further notice.</p>
+            
+        </form>
+
+        <div class="contact-section">
+            <h2>Contact Us</h2>
+            <div class="contact-details">
+                <p>For inquiries, please contact:</p>
+                <p><strong>IIUM Endowment Fund</strong></p>
+                <p> Level 3, Muhammad Abdul-Rauf Building
+                    International Islamic University Malaysia
+                    Jalan Gombak 53100 Kuala Lumpur
+                    03-6421 4133 / 5316 / 5313 (Direct Line)
+                    03-6421 4269 (Fax)</p>
+                <p>Email: <a href="ief@iium.edu.my ">ief@iium.edu.my</a></p>
+                <p>Website : www.iium.edu.my/ief</p>
+                <p>Facebook : www.facebook.com/iefofficial</p>
+            </div>
+    </div>
+</div>
+
+<button id="scrollButton" onclick="scrollToTop()">Scroll to Top</button>
+</div>
+
+<footer>
+<p>Copyright © 2023 IIUM Endowment Fund</p>
+</footer>
+
+
+
+   
+<script src="assgn.js"></script>
+   
+</body>
+</html>

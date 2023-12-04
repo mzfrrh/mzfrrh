@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgba(244, 244, 244, 0.65); 
+    background-image: url('donation.jpg'); 
+    margin: 0;
+    padding: 0;
+    opacity: 0.9; }
+
+header {
+    width: 100%;
+    background-color: wheat;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center; 
+}
+
+header img {
+    width: 500px;
+    height: auto;
+    margin-bottom: 10px; 
+}
+
+
+h1 {
+    font-family :'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+
+
+
+#content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    margin-top: 20px;
+    
+}
+
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+#deductionForm {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-image: url('rm1.jpg'); 
+    background-size: cover;
+}
+.submit-button {
+    transition-duration: 0.4s;
+    background-color: bisque;
+    color: black;
+    border: none;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+  } 
+ 
+  
+  .submit-button:hover {
+    background-color: turquoise;
+            color: white;
+  }
+
+   /* Additional styles for the scroll button */
+
+#scrollButton {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: peachpuff;
+    color: black;
+    border: none;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: none;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.4s;
+}
+
+#scrollButton:hover {
+    background-color: turquoise;
+}
+
+
+.contact-section {
+    text-align: center;
+    margin-top: 40px;
+    background-color: peachpuff; 
+    color:rgb(111, 78, 55);
+    padding: 20px; 
+    
+}
+
+.contact-details {
+    text-align: center;
+}
+
+footer {
+    background-color: wheat;
+    color: black;
+    padding: 10px;
+    text-align: center;
+}
